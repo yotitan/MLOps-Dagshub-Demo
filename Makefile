@@ -7,10 +7,10 @@ install:
 	pip install -r requirements.txt
 	
 test:
-	python3 -m pytest -vv -cov=hello_test.py
+	python3 -m pytest -vv -cov=$(git ls-files '*_test.py')
 	
 lint:
-	pylint --disable R,C hello.py
+	pylint --disable R,C *.py
 	
 all:
 	make test
