@@ -1,3 +1,5 @@
+[![MLOps demo with Github Actions](https://github.com/yotitan/MLOps-Dagshub-Demo/actions/workflows/main.yml/badge.svg)](https://github.com/yotitan/MLOps-Dagshub-Demo/actions/workflows/main.yml)
+
 # MLOps DagsHub Demo
 Step 1:
     Create Git repo
